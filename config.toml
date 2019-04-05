@@ -1,4 +1,28 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "kiss"
+baseURL = "Marcel-Maack-hugoAbschluss.github.io"
+languageCode = "de"
+title = "Mein Hugo Abschluss Seite"
+theme = "hugo_theme_beg"
+[Author]
+    name = "Marcel"
+    profile = "https://google.com/+XXX"
+
+[Taxononies]
+    tag = "tags"
+    kurs = "kurse"
+
+[permalinks]
+    post = "/:year/:month/:weekdayname/:title"
+
+[[menu.main]]
+    identifier = "kurs"
+    name = "Kurse"
+    url = "/kurse"
+    weight = 2
+
+[[menu.main]]
+    name = "Tag"
+    url = "/tags"
+    weight = 3
+
+
+
